@@ -28,7 +28,7 @@ execute if entity @s[tag=wood.dark_oak_log,tag=wood.axis_z] run setblock ~ ~ ~ d
 execute if entity @s[tag=wood.mangrove_log,tag=wood.axis_z] run setblock ~ ~ ~ mangrove_log[axis=z]
 
 # create particle & sfx
-particle minecraft:block minecraft:oak_log ~ ~ ~ 0 0 0 0.12 2
+particle minecraft:block{block_state:"minecraft:oak_log"} ~ ~ ~ 0 0 0 0.12 2
 playsound block.wood.fall block @a
 
 # reset scores
