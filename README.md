@@ -7,3 +7,4 @@ tulip's skill system, featuring:
 also check out:
 - [tulip/stem](https://github.com/tulip-mc/stem)
 - [tulip/housing](https://github.com/tulip-mc/housing)
+- [tulip/item](https://github.com/tulip-mc/item)
