@@ -3,9 +3,11 @@
 
 # reset blocks
 execute if entity @s[tag=farm.wheat] run setblock ~ ~ ~ wheat[age=7]
+execute if entity @s[tag=farm.carrot] run setblock ~ ~ ~ carrots[age=7]
+execute if entity @s[tag=farm.potato] run setblock ~ ~ ~ potatoes[age=7]
 
 # create particle & sfx
-particle minecraft:falling_spore_blossom ~ ~ ~ 0 0 0 0.12 2
+particle minecraft:block{block_state:"minecraft:hay_block"} ~ ~ ~ 0 0.7 0 0.12 1
 playsound block.grass.fall block @a
 
 # reset scores
