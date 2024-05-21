@@ -14,3 +14,5 @@ execute if block ~ ~ ~ air if score @s farm.state matches 1 run function tulip_s
 
 # timer finished
 execute if entity @s[tag=farm.wheat] if score @s farm.timer >= farm.wheat tulip.defs run function tulip_skill:system/farm/finish
+execute if entity @s[tag=farm.carrot] if score @s farm.timer >= farm.wheat tulip.defs run function tulip_skill:system/farm/finish
+execute if entity @s[tag=farm.potato] if score @s farm.timer >= farm.wheat tulip.defs run function tulip_skill:system/farm/finish
