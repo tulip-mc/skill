@@ -8,7 +8,7 @@ execute if entity @s[tag=farm.potato] run setblock ~ ~ ~ potatoes[age=7]
 
 # create particle & sfx
 particle minecraft:block{block_state:"minecraft:hay_block"} ~ ~ ~ 0 0.7 0 0.12 1
-playsound minecraft:entity.armadillo.brush player @a ~ ~ ~ 0.2
+playsound minecraft:entity.armadillo.brush player @a ~ ~ ~ 0.4
 
 # reset scores
 scoreboard players set @s farm.state 1
