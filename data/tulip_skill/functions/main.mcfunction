@@ -28,3 +28,6 @@ execute as @a run function tulip_skill:system/level/up/check
 # call player's level in trigger
 scoreboard players enable @a[tag=!ignore_call] skills
 execute as @a if score @s skills matches 1.. run function tulip_skill:system/level/call
+
+# workbench
+execute as @e[tag=workbench.generic,tag=!workbench.init] at @s run function tulip_skill:system/workbench/init
