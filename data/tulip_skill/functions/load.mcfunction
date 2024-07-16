@@ -16,13 +16,13 @@ scoreboard players set farm.wheat tulip.defs 480
 ## foraging
 scoreboard objectives add wood.state dummy
 scoreboard objectives add wood.timer dummy
-scoreboard players set wood.oak_log tulip.defs 160
-scoreboard players set wood.spruce_log tulip.defs 160
-scoreboard players set wood.birch_log tulip.defs 160
-scoreboard players set wood.jungle_log tulip.defs 160
-scoreboard players set wood.acacia_log tulip.defs 160
-scoreboard players set wood.dark_oak_log tulip.defs 160
-scoreboard players set wood.mangrove_log tulip.defs 120
+scoreboard players set wood.oak_log tulip.defs 300
+scoreboard players set wood.spruce_log tulip.defs 300
+scoreboard players set wood.birch_log tulip.defs 300
+scoreboard players set wood.jungle_log tulip.defs 300
+scoreboard players set wood.acacia_log tulip.defs 300
+scoreboard players set wood.dark_oak_log tulip.defs 300
+scoreboard players set wood.mangrove_log tulip.defs 300
 
 
 # display player skills as a trigger
