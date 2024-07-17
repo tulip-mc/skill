@@ -20,7 +20,7 @@ execute if score @s tulip_skill.combat.booster matches 2.. run function tulip_sk
 
 # none
 ## (hides actionbar)
-execute unless score @s temp_store.player_tool_bool matches 1.. run title @s actionbar ["",{"selector":"@e[type=minecraft:area_effect_cloud,tag=tulip.heart,limit=1]"},{"score":{"name":"@s","objective":"player.health"},"color":"#EA6060"},{"text":" \u0020 ⑨ ","color":"#EEDA7A"},{"score":{"name":"@s","objective":"temp_store.player.coins.display"},"color":"#EEDA7A"},{"text":" \u0020 ⑱ ","color":"#C4917D"},{"score":{"name":"@s","objective":"player.food"},"color":"#C4917D"},{"text":" \u0020 ⑤ ","color":"#bac2de"},{"score":{"name":"@s","objective":"player.defense"},"color":"#bac2de"}]
+execute unless score @s temp_store.player_tool_bool matches 1.. run title @s actionbar ["",{"selector":"@e[type=minecraft:area_effect_cloud,tag=tulip.heart,limit=1]"},{"score":{"name":"@s","objective":"player.health"},"color":"#EA6060"},{"text":" \u0020 ⑨ ","color":"#EEDA7A"},{"score":{"name":"@s","objective":"temp_store.coins.display"},"color":"#EEDA7A"},{"text":" \u0020 ⑱ ","color":"#C4917D"},{"score":{"name":"@s","objective":"player.food"},"color":"#C4917D"},{"text":" \u0020 ⑤ ","color":"#bac2de"},{"score":{"name":"@s","objective":"player.defense"},"color":"#bac2de"}]
 
 # display current level
 ## mining
