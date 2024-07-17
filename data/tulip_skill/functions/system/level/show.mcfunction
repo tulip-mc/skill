@@ -20,7 +20,7 @@ execute if score @s tulip_skill.combat.booster matches 2.. run function tulip_sk
 
 # none
 ## (hides actionbar)
-execute unless data entity @s SelectedItem run title @s actionbar ["",{"text":"④ ","color":"#EA6060"},{"score":{"name":"@s","objective":"player.health"},"color":"#EA6060"},{"text":" \u0020 ⑱ ","color":"#f9e2af"},{"score":{"name":"@s","objective":"player.food"},"color":"#f9e2af"},{"text":" \u0020 ⑤ ","color":"#bac2de"},{"score":{"name":"@s","objective":"player.defense"},"color":"#bac2de"}]
+execute unless entity @s[tag=gateway.player_to_transport] unless score @s temp_store.player_tool_bool matches 1.. run title @s actionbar ["",{"text":"④ ","color":"#EA6060"},{"score":{"name":"@s","objective":"player.health"},"color":"#EA6060"},{"text":" \u0020 ⑱ ","color":"#f9e2af"},{"score":{"name":"@s","objective":"player.food"},"color":"#f9e2af"},{"text":" \u0020 ⑤ ","color":"#bac2de"},{"score":{"name":"@s","objective":"player.defense"},"color":"#bac2de"}]
 
 # display current level
 ## mining
